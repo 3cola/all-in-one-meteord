@@ -8,7 +8,8 @@ RUN \
     lsb-release \
     gpgv2 \
     bzip2 \
-    xz-utils
+    xz-utils \
+    build-essential
 
 RUN cd /tmp
 
